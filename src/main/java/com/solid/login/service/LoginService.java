@@ -23,12 +23,16 @@ public class LoginService {
 
     public Boolean autenticar( Usuario usuario ) throws Exception{
         Usuario usuarioBd = usuarioRepository.findByUser( usuario.getUser().trim() );
+        if ( usuarioBd == null )
+            return false;
         String cifrado = cifradoManager.cifrar( usuario.getPassword() );
         return cifrado.equals( usuarioBd.getPassword() );
     }
 
     public String forget( Usuario usuario ) throws Exception {
         Usuario usuarioBd = usuarioRepository.findByUser( usuario.getUser().trim() );
+        if ( usuarioBd == null )
+            return null;
         String passAleatorio = generarPassAleatorio();
         String cifrado = cifradoManager.cifrar( passAleatorio );
         usuarioBd.setPassword( cifrado );

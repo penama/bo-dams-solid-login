@@ -39,6 +39,10 @@ public class LoginControllerImpl implements ILoginRest {
     public ResponseEntity<String> forget(Usuario usuario) {
         try {
             String passAleatorio = loginService.forget( usuario );
+            if ( passAleatorio == null ){
+                log.warn(this.getClass(), "usuario " + usuario.getUser() + " no existe...");
+                return new ResponseEntity<String>( "Usuario " + usuario.getUser() + " no existe...",  HttpStatus.BAD_REQUEST);
+            }
             log.info(this.getClass(), "usuario " + usuario.getUser() + " ha olvidado su contraseña, se asignará una aleatoria...");
             return new ResponseEntity<String>( "Su nueva contraseña es " + passAleatorio,  HttpStatus.OK);
         } catch (Exception e) {
