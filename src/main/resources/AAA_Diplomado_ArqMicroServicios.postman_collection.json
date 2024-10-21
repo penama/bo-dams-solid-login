@@ -1,0 +1,349 @@
+{
+	"info": {
+		"_postman_id": "401983f4-bf42-42fe-8af5-699c1c9caec5",
+		"name": "AAA_Diplomado_ArqMicroServicios",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16677511"
+	},
+	"item": [
+		{
+			"name": "SOLID_Login",
+			"item": [
+				{
+					"name": "Registro Usuario",
+					"item": [
+						{
+							"name": "Consulta Usuarios",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8099/api/v1/usuarios/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8099",
+									"path": [
+										"api",
+										"v1",
+										"usuarios",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Consulta Usuario ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8099/api/v1/usuarios/id/:id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8099",
+									"path": [
+										"api",
+										"v1",
+										"usuarios",
+										"id",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Consulta Usuario User",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8099/api/v1/usuarios/user/:user",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8099",
+									"path": [
+										"api",
+										"v1",
+										"usuarios",
+										"user",
+										":user"
+									],
+									"variable": [
+										{
+											"key": "user",
+											"value": "augustoss"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Crear Usuario",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{    \r\n    \"nombre\": \"Marco Augusto\",\r\n    \"apellido\": \"Peña Alcóce\",\r\n    \"user\": \"augustodwds\",\r\n    \"password\": \"123456\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8099/api/v1/usuarios/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8099",
+									"path": [
+										"api",
+										"v1",
+										"usuarios",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Actualizar Usuario",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\": 1,\r\n    \"nombre\": \"Marco Augustossss\",\r\n    \"apellido\": \"Peña Alcóce\",\r\n    \"user\": \"marcos\",\r\n    \"password\": \"123456789999dfdf0\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8099/api/v1/usuarios/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8099",
+									"path": [
+										"api",
+										"v1",
+										"usuarios",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Eliminar Usuario",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8099/api/v1/usuarios/:id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8099",
+									"path": [
+										"api",
+										"v1",
+										"usuarios",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Config",
+					"item": [
+						{
+							"name": "Config Cifrar",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8099/api/v1/config/cifrar/:tipo",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8099",
+									"path": [
+										"api",
+										"v1",
+										"config",
+										"cifrar",
+										":tipo"
+									],
+									"variable": [
+										{
+											"key": "tipo",
+											"value": "hashcode",
+											"description": "base64, hashcode, cipher"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Config Log",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8099/api/v1/config/logger/:tipo",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8099",
+									"path": [
+										"api",
+										"v1",
+										"config",
+										"logger",
+										":tipo"
+									],
+									"variable": [
+										{
+											"key": "tipo",
+											"value": "api",
+											"description": "log4j, bd, api"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Logger Bd",
+					"item": [
+						{
+							"name": "Logger BD Consulta",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8099/api/v1/loggersbd/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8099",
+									"path": [
+										"api",
+										"v1",
+										"loggersbd",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Login",
+					"item": [
+						{
+							"name": "Login Autenticar",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{        \r\n    \"user\": \"augusto\",\r\n    \"password\": \"123456\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8099/api/v1/login/autenticar",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8099",
+									"path": [
+										"api",
+										"v1",
+										"login",
+										"autenticar"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Login Forget",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{        \r\n    \"user\": \"augusto\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8099/api/v1/login/forget",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8099",
+									"path": [
+										"api",
+										"v1",
+										"login",
+										"forget"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
