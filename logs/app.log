@@ -1,0 +1,600 @@
+2024-10-20 00:17:20 [http-nio-8099-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-20 00:17:20 [http-nio-8099-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-20 00:17:20 [http-nio-8099-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-10-20 00:17:21 [http-nio-8099-exec-2] INFO  com.solid.login.Controller.UsuarioControllerImpl - Consultando listado de usuario...
+2024-10-20 00:17:28 [http-nio-8099-exec-3] WARN  com.solid.login.Controller.UsuarioControllerImpl - usuario no existe...
+2024-10-20 00:17:32 [http-nio-8099-exec-4] WARN  com.solid.login.Controller.UsuarioControllerImpl - usuario no existe...
+2024-10-20 00:17:39 [http-nio-8099-exec-5] INFO  com.solid.login.Controller.UsuarioControllerImpl - creando usuario: augustoss
+2024-10-20 00:18:15 [http-nio-8099-exec-6] INFO  com.solid.login.Controller.UsuarioControllerImpl - creando usuario: augustoss
+2024-10-20 00:28:50 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 00:28:50 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-20 00:28:50 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-20 00:29:02 [main] INFO  com.solid.login.SolidloginApplication - Starting SolidloginApplication using Java 21.0.2 with PID 31236 (D:\Developer\SolidLogin\solidlogin\target\classes started by penama in D:\Developer\SolidLogin\solidlogin)
+2024-10-20 00:29:02 [main] INFO  com.solid.login.SolidloginApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-20 00:29:04 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 00:29:04 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 303 ms. Found 2 JPA repository interfaces.
+2024-10-20 00:29:06 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8099 (http)
+2024-10-20 00:29:06 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-10-20 00:29:06 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-20 00:29:06 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-20 00:29:06 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-20 00:29:06 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3853 ms
+2024-10-20 00:29:06 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-20 00:29:07 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:solidlogindb user=ROOT
+2024-10-20 00:29:07 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-20 00:29:07 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:solidlogindb'
+2024-10-20 00:29:07 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-20 00:29:08 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 00:29:08 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-20 00:29:09 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 00:29:09 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 00:29:11 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 00:29:11 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 00:29:11 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-20 00:29:12 [main] INFO  com.solid.login.service.logger.LoggerManager - Cambiando el tipo de logger despues: class com.solid.login.service.logger.LoogerLog4jImpl
+2024-10-20 00:29:13 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado antes: null
+2024-10-20 00:29:13 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado despues: class com.solid.login.service.cifrado.CifrarBase64Impl
+2024-10-20 00:29:13 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 00:29:14 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-10-20 00:29:14 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8099 (http) with context path '/'
+2024-10-20 00:29:14 [main] INFO  com.solid.login.SolidloginApplication - Started SolidloginApplication in 12.982 seconds (process running for 15.586)
+2024-10-20 00:29:21 [http-nio-8099-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-20 00:29:21 [http-nio-8099-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-20 00:29:21 [http-nio-8099-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-10-20 00:29:22 [http-nio-8099-exec-2] INFO  com.solid.login.Controller.UsuarioControllerImpl - creando usuario: augustoss
+2024-10-20 00:29:26 [http-nio-8099-exec-3] INFO  com.solid.login.Controller.UsuarioControllerImpl - creando usuario: augustoss
+2024-10-20 00:29:46 [http-nio-8099-exec-4] INFO  com.solid.login.Controller.UsuarioControllerImpl - actualizando datos del usuario: Usuario [nombre=Marco Augustossss,apellido=Peña Alcóce,user=marco,pass=MTIzNDU2Nzg5MA==]
+2024-10-20 00:29:55 [http-nio-8099-exec-5] INFO  com.solid.login.Controller.UsuarioControllerImpl - actualizando datos del usuario: Usuario [nombre=Marco Augustossss,apellido=Peña Alcóce,user=marco,pass=MTIzNDU2Nzg5MA==]
+2024-10-20 00:30:06 [http-nio-8099-exec-6] INFO  com.solid.login.Controller.UsuarioControllerImpl - Consultando listado de usuario...
+2024-10-20 00:30:22 [http-nio-8099-exec-7] INFO  com.solid.login.Controller.UsuarioControllerImpl - actualizando datos del usuario: Usuario [nombre=Marco Augustossss,apellido=Peña Alcóce,user=marco,pass=1234567890]
+2024-10-20 00:30:29 [http-nio-8099-exec-8] INFO  com.solid.login.Controller.UsuarioControllerImpl - Consultando listado de usuario...
+2024-10-20 00:31:35 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 00:31:35 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-20 00:31:35 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-20 00:31:43 [main] INFO  com.solid.login.SolidloginApplication - Starting SolidloginApplication using Java 21.0.2 with PID 26048 (D:\Developer\SolidLogin\solidlogin\target\classes started by penama in D:\Developer\SolidLogin\solidlogin)
+2024-10-20 00:31:43 [main] INFO  com.solid.login.SolidloginApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-20 00:31:45 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 00:31:45 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 267 ms. Found 2 JPA repository interfaces.
+2024-10-20 00:31:47 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8099 (http)
+2024-10-20 00:31:47 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-10-20 00:31:47 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-20 00:31:47 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-20 00:31:47 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-20 00:31:47 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3624 ms
+2024-10-20 00:31:47 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-20 00:31:48 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:solidlogindb user=ROOT
+2024-10-20 00:31:48 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-20 00:31:48 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:solidlogindb'
+2024-10-20 00:31:48 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-20 00:31:49 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 00:31:49 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-20 00:31:49 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 00:31:50 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 00:31:51 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 00:31:51 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 00:31:52 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-20 00:31:53 [main] INFO  com.solid.login.service.logger.LoggerManager - Cambiando el tipo de logger despues: class com.solid.login.service.logger.LoogerLog4jImpl
+2024-10-20 00:31:53 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado antes: null
+2024-10-20 00:31:53 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado despues: class com.solid.login.service.cifrado.CifrarBase64Impl
+2024-10-20 00:31:53 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 00:31:54 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-10-20 00:31:54 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8099 (http) with context path '/'
+2024-10-20 00:31:54 [main] INFO  com.solid.login.SolidloginApplication - Started SolidloginApplication in 11.292 seconds (process running for 13.678)
+2024-10-20 00:32:00 [http-nio-8099-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-20 00:32:00 [http-nio-8099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-20 00:32:00 [http-nio-8099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2024-10-20 00:32:01 [http-nio-8099-exec-1] INFO  com.solid.login.Controller.UsuarioControllerImpl - actualizando datos del usuario: Usuario [nombre=Marco Augustossss,apellido=Peña Alcóce,user=marco,pass=1234567890]
+2024-10-20 00:32:08 [http-nio-8099-exec-3] INFO  com.solid.login.Controller.UsuarioControllerImpl - Consultando listado de usuario...
+2024-10-20 00:33:06 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 00:33:06 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-20 00:33:06 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-20 00:33:17 [main] INFO  com.solid.login.SolidloginApplication - Starting SolidloginApplication using Java 21.0.2 with PID 30736 (D:\Developer\SolidLogin\solidlogin\target\classes started by penama in D:\Developer\SolidLogin\solidlogin)
+2024-10-20 00:33:17 [main] INFO  com.solid.login.SolidloginApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-20 00:33:19 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 00:33:20 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 169 ms. Found 2 JPA repository interfaces.
+2024-10-20 00:33:21 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8099 (http)
+2024-10-20 00:33:21 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-10-20 00:33:21 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-20 00:33:21 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-20 00:33:21 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-20 00:33:21 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3570 ms
+2024-10-20 00:33:21 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-20 00:33:22 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:solidlogindb user=ROOT
+2024-10-20 00:33:22 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-20 00:33:22 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:solidlogindb'
+2024-10-20 00:33:23 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-20 00:33:23 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 00:33:23 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-20 00:33:24 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 00:33:24 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 00:33:26 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 00:33:26 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 00:33:26 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-20 00:33:28 [main] INFO  com.solid.login.service.logger.LoggerManager - Cambiando el tipo de logger despues: class com.solid.login.service.logger.LoogerLog4jImpl
+2024-10-20 00:33:28 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado antes: null
+2024-10-20 00:33:28 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado despues: class com.solid.login.service.cifrado.CifrarBase64Impl
+2024-10-20 00:33:28 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 00:33:29 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-10-20 00:33:29 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8099 (http) with context path '/'
+2024-10-20 00:33:29 [main] INFO  com.solid.login.SolidloginApplication - Started SolidloginApplication in 12.419 seconds (process running for 14.892)
+2024-10-20 00:33:39 [http-nio-8099-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-20 00:33:39 [http-nio-8099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-20 00:33:39 [http-nio-8099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-10-20 00:33:40 [http-nio-8099-exec-1] INFO  com.solid.login.Controller.UsuarioControllerImpl - actualizando datos del usuario: Usuario [nombre=Marco Augustossss,apellido=Peña Alcóce,user=marco,pass=1234567890]
+2024-10-20 00:33:50 [http-nio-8099-exec-3] INFO  com.solid.login.Controller.UsuarioControllerImpl - creando usuario: augustoss
+2024-10-20 00:34:02 [http-nio-8099-exec-4] INFO  com.solid.login.Controller.UsuarioControllerImpl - actualizando datos del usuario: Usuario [nombre=Marco Augustossss,apellido=Peña Alcóce,user=marco,pass=1234567890]
+2024-10-20 00:34:08 [http-nio-8099-exec-5] INFO  com.solid.login.Controller.UsuarioControllerImpl - Consultando listado de usuario...
+2024-10-20 00:34:28 [http-nio-8099-exec-6] INFO  com.solid.login.Controller.UsuarioControllerImpl - creando usuario: marco
+2024-10-20 00:34:38 [http-nio-8099-exec-7] INFO  com.solid.login.Controller.UsuarioControllerImpl - Consultando listado de usuario...
+2024-10-20 00:34:54 [http-nio-8099-exec-8] INFO  com.solid.login.Controller.UsuarioControllerImpl - actualizando datos del usuario: Usuario [nombre=Marco Augustossss,apellido=Peña Alcóce,user=augustoss,pass=1234567890]
+2024-10-20 00:37:36 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 00:37:36 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-20 00:37:36 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-20 00:37:45 [main] INFO  com.solid.login.SolidloginApplication - Starting SolidloginApplication using Java 21.0.2 with PID 4756 (D:\Developer\SolidLogin\solidlogin\target\classes started by penama in D:\Developer\SolidLogin\solidlogin)
+2024-10-20 00:37:45 [main] INFO  com.solid.login.SolidloginApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-20 00:37:47 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 00:37:48 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 333 ms. Found 2 JPA repository interfaces.
+2024-10-20 00:37:49 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8099 (http)
+2024-10-20 00:37:49 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-10-20 00:37:49 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-20 00:37:49 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-20 00:37:49 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-20 00:37:49 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3376 ms
+2024-10-20 00:37:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-20 00:37:50 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:solidlogindb user=ROOT
+2024-10-20 00:37:50 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-20 00:37:50 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:solidlogindb'
+2024-10-20 00:37:50 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-20 00:37:50 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 00:37:50 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-20 00:37:51 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 00:37:51 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 00:37:53 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 00:37:53 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 00:37:53 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-20 00:37:54 [main] INFO  com.solid.login.service.logger.LoggerManager - Cambiando el tipo de logger despues: class com.solid.login.service.logger.LoogerLog4jImpl
+2024-10-20 00:37:54 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado antes: null
+2024-10-20 00:37:54 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado despues: class com.solid.login.service.cifrado.CifrarBase64Impl
+2024-10-20 00:37:55 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 00:37:55 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-10-20 00:37:55 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8099 (http) with context path '/'
+2024-10-20 00:37:55 [main] INFO  com.solid.login.SolidloginApplication - Started SolidloginApplication in 10.378 seconds (process running for 12.493)
+2024-10-20 00:38:02 [http-nio-8099-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-20 00:38:02 [http-nio-8099-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-20 00:38:02 [http-nio-8099-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-10-20 00:38:02 [http-nio-8099-exec-2] INFO  com.solid.login.Controller.UsuarioControllerImpl - creando usuario: marco
+2024-10-20 00:38:10 [http-nio-8099-exec-3] INFO  com.solid.login.Controller.UsuarioControllerImpl - creando usuario: augusto
+2024-10-20 00:38:18 [http-nio-8099-exec-4] INFO  com.solid.login.Controller.UsuarioControllerImpl - actualizando datos del usuario: Usuario [nombre=Marco Augustossss,apellido=Peña Alcóce,user=marco,pass=1234567890]
+2024-10-20 00:38:34 [http-nio-8099-exec-6] INFO  com.solid.login.Controller.UsuarioControllerImpl - actualizando datos del usuario: Usuario [nombre=Marco Augustossss,apellido=Peña Alcóce,user=marco,pass=1234567890]
+2024-10-20 00:38:53 [http-nio-8099-exec-8] INFO  com.solid.login.Controller.UsuarioControllerImpl - eliminando usuario id = 5
+2024-10-20 00:38:59 [http-nio-8099-exec-9] INFO  com.solid.login.Controller.UsuarioControllerImpl - eliminando usuario id = 1
+2024-10-20 00:39:28 [http-nio-8099-exec-1] INFO  com.solid.login.Controller.UsuarioControllerImpl - actualizando datos del usuario: Usuario [nombre=Marco Augustossss,apellido=Peña Alcóce,user=marcos,pass=MTIzNDU2Nzg5MA==]
+2024-10-20 00:39:43 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 00:39:43 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-20 00:39:43 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-20 00:39:53 [main] INFO  com.solid.login.SolidloginApplication - Starting SolidloginApplication using Java 21.0.2 with PID 5828 (D:\Developer\SolidLogin\solidlogin\target\classes started by penama in D:\Developer\SolidLogin\solidlogin)
+2024-10-20 00:39:53 [main] INFO  com.solid.login.SolidloginApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-20 00:39:55 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 00:39:55 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 161 ms. Found 2 JPA repository interfaces.
+2024-10-20 00:39:56 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8099 (http)
+2024-10-20 00:39:56 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-10-20 00:39:56 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-20 00:39:56 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-20 00:39:56 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-20 00:39:56 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2986 ms
+2024-10-20 00:39:56 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-20 00:39:57 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:solidlogindb user=ROOT
+2024-10-20 00:39:57 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-20 00:39:57 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:solidlogindb'
+2024-10-20 00:39:57 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-20 00:39:58 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 00:39:58 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-20 00:39:59 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 00:39:59 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 00:40:00 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 00:40:01 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 00:40:01 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-20 00:40:02 [main] INFO  com.solid.login.service.logger.LoggerManager - Cambiando el tipo de logger despues: class com.solid.login.service.logger.LoogerLog4jImpl
+2024-10-20 00:40:02 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado antes: null
+2024-10-20 00:40:02 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado despues: class com.solid.login.service.cifrado.CifrarBase64Impl
+2024-10-20 00:40:03 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 00:40:05 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-10-20 00:40:05 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8099 (http) with context path '/'
+2024-10-20 00:40:05 [main] INFO  com.solid.login.SolidloginApplication - Started SolidloginApplication in 13.113 seconds (process running for 15.283)
+2024-10-20 00:40:05 [http-nio-8099-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-20 00:40:05 [http-nio-8099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-20 00:40:05 [http-nio-8099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-20 00:40:06 [http-nio-8099-exec-1] INFO  com.solid.login.Controller.UsuarioControllerImpl - creando usuario: augusto
+2024-10-20 00:40:13 [http-nio-8099-exec-3] INFO  com.solid.login.Controller.UsuarioControllerImpl - actualizando datos del usuario: Usuario [nombre=Marco Augustossss,apellido=Peña Alcóce,user=marcos,pass=1234567890]
+2024-10-20 00:40:19 [http-nio-8099-exec-6] INFO  com.solid.login.Controller.UsuarioControllerImpl - actualizando datos del usuario: Usuario [nombre=Marco Augustossss,apellido=Peña Alcóce,user=marcos,pass=MTIzNDU2Nzg5MA==]
+2024-10-20 00:40:26 [http-nio-8099-exec-5] INFO  com.solid.login.Controller.UsuarioControllerImpl - eliminando usuario id = 1
+2024-10-20 00:40:41 [http-nio-8099-exec-7] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado antes: class com.solid.login.service.cifrado.CifrarBase64Impl
+2024-10-20 00:40:41 [http-nio-8099-exec-7] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado despues: class com.solid.login.service.cifrado.CifrarCipherImpl
+2024-10-20 00:41:13 [http-nio-8099-exec-8] INFO  com.solid.login.Controller.UsuarioControllerImpl - Consultando listado de usuario...
+2024-10-20 00:41:18 [http-nio-8099-exec-9] INFO  com.solid.login.Controller.UsuarioControllerImpl - creando usuario: augusto
+2024-10-20 00:41:23 [http-nio-8099-exec-10] INFO  com.solid.login.Controller.UsuarioControllerImpl - Consultando listado de usuario...
+2024-10-20 00:41:29 [http-nio-8099-exec-2] WARN  com.solid.login.Controller.UsuarioControllerImpl - usuario no existe...
+2024-10-20 00:41:32 [http-nio-8099-exec-1] WARN  com.solid.login.Controller.UsuarioControllerImpl - usuario no existe...
+2024-10-20 00:41:46 [http-nio-8099-exec-3] WARN  com.solid.login.Controller.UsuarioControllerImpl - usuario no existe...
+2024-10-20 00:41:50 [http-nio-8099-exec-4] INFO  com.solid.login.Controller.UsuarioControllerImpl - creando usuario: augusto
+2024-10-20 00:41:59 [http-nio-8099-exec-5] INFO  com.solid.login.Controller.UsuarioControllerImpl - creando usuario: augustoss
+2024-10-20 00:42:03 [http-nio-8099-exec-7] INFO  com.solid.login.Controller.UsuarioControllerImpl - Consultando listado de usuario...
+2024-10-20 00:42:13 [http-nio-8099-exec-8] WARN  com.solid.login.Controller.UsuarioControllerImpl - usuario no existe...
+2024-10-20 00:43:32 [http-nio-8099-exec-2] WARN  com.solid.login.Controller.UsuarioControllerImpl - usuario no existe...
+2024-10-20 00:43:37 [http-nio-8099-exec-1] WARN  com.solid.login.Controller.UsuarioControllerImpl - usuario no existe...
+2024-10-20 00:43:41 [http-nio-8099-exec-3] WARN  com.solid.login.Controller.UsuarioControllerImpl - usuario no existe...
+2024-10-20 00:43:48 [http-nio-8099-exec-4] WARN  com.solid.login.Controller.UsuarioControllerImpl - usuario no existe...
+2024-10-20 00:47:18 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 00:47:18 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-20 00:47:18 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-20 00:47:26 [main] INFO  com.solid.login.SolidloginApplication - Starting SolidloginApplication using Java 21.0.2 with PID 29504 (D:\Developer\SolidLogin\solidlogin\target\classes started by penama in D:\Developer\SolidLogin\solidlogin)
+2024-10-20 00:47:26 [main] INFO  com.solid.login.SolidloginApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-20 00:47:28 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 00:47:28 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 188 ms. Found 2 JPA repository interfaces.
+2024-10-20 00:47:30 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8099 (http)
+2024-10-20 00:47:30 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-10-20 00:47:30 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-20 00:47:30 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-20 00:47:30 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-20 00:47:30 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3394 ms
+2024-10-20 00:47:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-20 00:47:31 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:solidlogindb user=ROOT
+2024-10-20 00:47:31 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-20 00:47:31 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:solidlogindb'
+2024-10-20 00:47:31 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-20 00:47:31 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 00:47:31 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-20 00:47:32 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 00:47:32 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 00:47:33 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 00:47:34 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 00:47:34 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-20 00:47:35 [main] INFO  com.solid.login.service.logger.LoggerManager - Cambiando el tipo de logger despues: class com.solid.login.service.logger.LoogerLog4jImpl
+2024-10-20 00:47:35 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado antes: null
+2024-10-20 00:47:35 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado despues: class com.solid.login.service.cifrado.CifrarBase64Impl
+2024-10-20 00:47:35 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 00:47:36 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-10-20 00:47:36 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8099 (http) with context path '/'
+2024-10-20 00:47:36 [main] INFO  com.solid.login.SolidloginApplication - Started SolidloginApplication in 10.206 seconds (process running for 12.213)
+2024-10-20 00:47:52 [http-nio-8099-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-20 00:47:52 [http-nio-8099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-20 00:47:52 [http-nio-8099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-20 00:47:52 [http-nio-8099-exec-1] INFO  com.solid.login.Controller.UsuarioControllerImpl - Consultando listado de usuario...
+2024-10-20 00:47:57 [http-nio-8099-exec-3] INFO  com.solid.login.Controller.UsuarioControllerImpl - creando usuario: augustoss
+2024-10-20 00:48:00 [http-nio-8099-exec-4] INFO  com.solid.login.Controller.UsuarioControllerImpl - Consultando listado de usuario...
+2024-10-20 00:48:08 [http-nio-8099-exec-5] WARN  com.solid.login.Controller.UsuarioControllerImpl - usuario no existe...
+2024-10-20 00:49:09 [http-nio-8099-exec-8] INFO  com.solid.login.Controller.UsuarioControllerImpl - Consultando usuario id = 1 -> Usuario [nombre=Marco Augusto,apellido=Peña Alcóce,user=augustoss,pass=MTIzNDU2Nw==]
+2024-10-20 00:49:40 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 00:49:40 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-20 00:49:40 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-20 00:49:49 [main] INFO  com.solid.login.SolidloginApplication - Starting SolidloginApplication using Java 21.0.2 with PID 14676 (D:\Developer\SolidLogin\solidlogin\target\classes started by penama in D:\Developer\SolidLogin\solidlogin)
+2024-10-20 00:49:49 [main] INFO  com.solid.login.SolidloginApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-20 00:49:50 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 00:49:50 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 152 ms. Found 2 JPA repository interfaces.
+2024-10-20 00:49:52 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8099 (http)
+2024-10-20 00:49:52 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-10-20 00:49:52 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-20 00:49:52 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-20 00:49:52 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-20 00:49:52 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3053 ms
+2024-10-20 00:49:52 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-20 00:49:52 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:solidlogindb user=ROOT
+2024-10-20 00:49:52 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-20 00:49:52 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:solidlogindb'
+2024-10-20 00:49:53 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-20 00:49:53 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 00:49:53 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-20 00:49:54 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 00:49:54 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 00:49:55 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 00:49:55 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 00:49:56 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-20 00:49:57 [main] INFO  com.solid.login.service.logger.LoggerManager - Cambiando el tipo de logger despues: class com.solid.login.service.logger.LoogerLog4jImpl
+2024-10-20 00:49:57 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado antes: null
+2024-10-20 00:49:57 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado despues: class com.solid.login.service.cifrado.CifrarBase64Impl
+2024-10-20 00:49:57 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 00:49:58 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-10-20 00:49:58 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8099 (http) with context path '/'
+2024-10-20 00:49:58 [main] INFO  com.solid.login.SolidloginApplication - Started SolidloginApplication in 10.014 seconds (process running for 12.161)
+2024-10-20 00:50:21 [http-nio-8099-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-20 00:50:21 [http-nio-8099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-20 00:50:21 [http-nio-8099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-10-20 00:50:22 [http-nio-8099-exec-1] INFO  com.solid.login.Controller.UsuarioControllerImpl - creando usuario: augustoss
+2024-10-20 00:50:26 [http-nio-8099-exec-3] INFO  com.solid.login.Controller.UsuarioControllerImpl - Consultando listado de usuario...
+2024-10-20 00:50:30 [http-nio-8099-exec-4] INFO  com.solid.login.Controller.UsuarioControllerImpl - Consultando usuario id = 1 -> Usuario [nombre=Marco Augusto,apellido=Peña Alcóce,user=augustoss,pass=MTIzNDU2Nw==]
+2024-10-20 00:50:46 [http-nio-8099-exec-5] INFO  com.solid.login.Controller.UsuarioControllerImpl - Consultando usuario user = augustoss -> Usuario [nombre=Marco Augusto,apellido=Peña Alcóce,user=augustoss,pass=MTIzNDU2Nw==]
+2024-10-20 00:50:56 [http-nio-8099-exec-6] INFO  com.solid.login.Controller.UsuarioControllerImpl - actualizando datos del usuario: Usuario [nombre=Marco Augustossss,apellido=Peña Alcóce,user=marcos,pass=MTIzNDU2Nzg5MA==]
+2024-10-20 00:51:40 [http-nio-8099-exec-7] INFO  com.solid.login.service.logger.LoggerManager - Cambiando el tipo de logger antes: class com.solid.login.service.logger.LoogerLog4jImpl
+2024-10-20 00:54:23 [http-nio-8099-exec-1] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 22001, SQLState: 22001
+2024-10-20 00:54:23 [http-nio-8099-exec-1] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Valor demasiado largo para la columna "LOG CHARACTER VARYING(255)": "'2024-10-20 00:54:23 ERROR com.solid.login.Controller.LoginControllerImpl Cannot... (262)"
+Value too long for column "LOG CHARACTER VARYING(255)": "'2024-10-20 00:54:23 ERROR com.solid.login.Controller.LoginControllerImpl Cannot... (262)"; SQL statement:
+insert into logs (log,id) values (?,default) [22001-224]
+2024-10-20 00:54:23 [http-nio-8099-exec-1] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [Valor demasiado largo para la columna "LOG CHARACTER VARYING(255)": "'2024-10-20 00:54:23 ERROR com.solid.login.Controller.LoginControllerImpl Cannot... (262)"
+Value too long for column "LOG CHARACTER VARYING(255)": "'2024-10-20 00:54:23 ERROR com.solid.login.Controller.LoginControllerImpl Cannot... (262)"; SQL statement:
+insert into logs (log,id) values (?,default) [22001-224]] [insert into logs (log,id) values (?,default)]; SQL [insert into logs (log,id) values (?,default)]] with root cause
+org.h2.jdbc.JdbcSQLDataException: Valor demasiado largo para la columna "LOG CHARACTER VARYING(255)": "'2024-10-20 00:54:23 ERROR com.solid.login.Controller.LoginControllerImpl Cannot... (262)"
+Value too long for column "LOG CHARACTER VARYING(255)": "'2024-10-20 00:54:23 ERROR com.solid.login.Controller.LoginControllerImpl Cannot... (262)"; SQL statement:
+insert into logs (log,id) values (?,default) [22001-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:518) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.message.DbException.getValueTooLongException(DbException.java:334) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.value.Value.getValueTooLongException(Value.java:2594) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.value.Value.convertToVarchar(Value.java:1282) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.value.Value.convertTo(Value.java:1138) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.value.Value.convertForAssignTo(Value.java:1113) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.table.Column.validateConvertUpdateSequence(Column.java:369) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.table.Table.convertInsertRow(Table.java:936) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.dml.Insert.insertRows(Insert.java:167) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.dml.Insert.update(Insert.java:135) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.CommandContainer.executeUpdateWithGeneratedKeys(CommandContainer.java:242) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.CommandContainer.update(CommandContainer.java:163) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.command.Command.executeUpdate(Command.java:256) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:216) ~[h2-2.2.224.jar:2.2.224]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:174) ~[h2-2.2.224.jar:2.2.224]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-5.1.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-5.1.0.jar:?]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performMutation(GetGeneratedKeysDelegate.java:116) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:47) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:95) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:671) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:292) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:273) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:323) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:391) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:305) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:224) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:137) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:757) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:741) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364) ~[spring-orm-6.1.13.jar:6.1.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy126.persist(Unknown Source) ~[?:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319) ~[spring-orm-6.1.13.jar:6.1.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy126.persist(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:626) ~[spring-data-jpa-3.3.4.jar:3.3.4]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:173) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:148) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.3.4.jar:3.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.1.13.jar:6.1.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.1.13.jar:6.1.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy130.save(Unknown Source) ~[?:?]
+	at com.solid.login.service.logger.LoggerBdImpl.error(LoggerBdImpl.java:52) ~[classes/:?]
+	at com.solid.login.service.logger.LoggerManager.error(LoggerManager.java:54) ~[classes/:?]
+	at com.solid.login.Controller.LoginControllerImpl.forget(LoginControllerImpl.java:45) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.13.jar:6.1.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.30.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.13.jar:6.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.30.jar:10.1.30]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-10-20 00:56:15 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 00:56:15 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-20 00:56:15 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-20 00:56:24 [main] INFO  com.solid.login.SolidloginApplication - Starting SolidloginApplication using Java 21.0.2 with PID 26140 (D:\Developer\SolidLogin\solidlogin\target\classes started by penama in D:\Developer\SolidLogin\solidlogin)
+2024-10-20 00:56:24 [main] INFO  com.solid.login.SolidloginApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-20 00:56:26 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 00:56:26 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 163 ms. Found 2 JPA repository interfaces.
+2024-10-20 00:56:27 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8099 (http)
+2024-10-20 00:56:27 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-10-20 00:56:27 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-20 00:56:27 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-20 00:56:27 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-20 00:56:27 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3130 ms
+2024-10-20 00:56:27 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-20 00:56:28 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:solidlogindb user=ROOT
+2024-10-20 00:56:28 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-20 00:56:28 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:solidlogindb'
+2024-10-20 00:56:29 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-20 00:56:29 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 00:56:29 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-20 00:56:30 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 00:56:30 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 00:56:32 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 00:56:32 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 00:56:32 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-20 00:56:33 [main] INFO  com.solid.login.service.logger.LoggerManager - Cambiando el tipo de logger despues: class com.solid.login.service.logger.LoogerLog4jImpl
+2024-10-20 00:56:33 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado antes: null
+2024-10-20 00:56:33 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado despues: class com.solid.login.service.cifrado.CifrarBase64Impl
+2024-10-20 00:56:33 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 00:56:34 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-10-20 00:56:34 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8099 (http) with context path '/'
+2024-10-20 00:56:34 [main] INFO  com.solid.login.SolidloginApplication - Started SolidloginApplication in 11.221 seconds (process running for 13.277)
+2024-10-20 00:56:45 [http-nio-8099-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-20 00:56:45 [http-nio-8099-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-20 00:56:45 [http-nio-8099-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-20 00:56:46 [http-nio-8099-exec-2] INFO  com.solid.login.Controller.UsuarioControllerImpl - creando usuario: augus
+2024-10-20 00:56:53 [http-nio-8099-exec-3] INFO  com.solid.login.Controller.UsuarioControllerImpl - creando usuario: augusto
+2024-10-20 00:57:45 [http-nio-8099-exec-8] INFO  com.solid.login.Controller.LoginControllerImpl - usuario augusto autenticado...
+2024-10-20 00:58:20 [http-nio-8099-exec-4] INFO  com.solid.login.Controller.LoginControllerImpl - usuario augusto ha olvidado su contraseña, se asignará una aleatoria...
+2024-10-20 00:58:46 [http-nio-8099-exec-9] INFO  com.solid.login.service.logger.LoggerManager - Cambiando el tipo de logger antes: class com.solid.login.service.logger.LoogerLog4jImpl
+2024-10-20 01:00:58 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 01:00:58 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-20 01:00:58 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-20 01:01:08 [main] INFO  com.solid.login.SolidloginApplication - Starting SolidloginApplication using Java 21.0.2 with PID 27012 (D:\Developer\SolidLogin\solidlogin\target\classes started by penama in D:\Developer\SolidLogin\solidlogin)
+2024-10-20 01:01:08 [main] INFO  com.solid.login.SolidloginApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-20 01:01:10 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 01:01:10 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 287 ms. Found 2 JPA repository interfaces.
+2024-10-20 01:01:11 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8099 (http)
+2024-10-20 01:01:11 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-10-20 01:01:11 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-20 01:01:11 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-20 01:01:11 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-20 01:01:11 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3466 ms
+2024-10-20 01:01:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-20 01:01:12 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:solidlogindb user=ROOT
+2024-10-20 01:01:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-20 01:01:12 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:solidlogindb'
+2024-10-20 01:01:12 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-20 01:01:12 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 01:01:13 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-20 01:01:13 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 01:01:13 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 01:01:15 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 01:01:15 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 01:01:15 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-20 01:01:16 [main] INFO  com.solid.login.service.logger.LoggerManager - Cambiando el tipo de logger despues: class com.solid.login.service.logger.LoogerLog4jImpl
+2024-10-20 01:01:16 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado antes: null
+2024-10-20 01:01:16 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado despues: class com.solid.login.service.cifrado.CifrarBase64Impl
+2024-10-20 01:01:16 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 01:01:17 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-10-20 01:01:17 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8099 (http) with context path '/'
+2024-10-20 01:01:17 [main] INFO  com.solid.login.SolidloginApplication - Started SolidloginApplication in 9.941 seconds (process running for 11.963)
+2024-10-20 01:01:21 [http-nio-8099-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-20 01:01:21 [http-nio-8099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-20 01:01:21 [http-nio-8099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-20 01:01:22 [http-nio-8099-exec-1] INFO  com.solid.login.Controller.UsuarioControllerImpl - creando usuario: augustow 
+2024-10-20 01:01:25 [http-nio-8099-exec-3] INFO  com.solid.login.Controller.UsuarioControllerImpl - creando usuario: augustow Usuario con user augustow ya existe...
+2024-10-20 01:02:04 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 01:02:04 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-20 01:02:04 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-20 01:02:13 [main] INFO  com.solid.login.SolidloginApplication - Starting SolidloginApplication using Java 21.0.2 with PID 25464 (D:\Developer\SolidLogin\solidlogin\target\classes started by penama in D:\Developer\SolidLogin\solidlogin)
+2024-10-20 01:02:13 [main] INFO  com.solid.login.SolidloginApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-20 01:02:15 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 01:02:15 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 171 ms. Found 2 JPA repository interfaces.
+2024-10-20 01:02:16 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8099 (http)
+2024-10-20 01:02:16 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-10-20 01:02:16 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-20 01:02:16 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-20 01:02:16 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-20 01:02:16 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3208 ms
+2024-10-20 01:02:16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-20 01:02:17 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:solidlogindb user=ROOT
+2024-10-20 01:02:17 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-20 01:02:17 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:solidlogindb'
+2024-10-20 01:02:17 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-20 01:02:17 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 01:02:17 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-20 01:02:18 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 01:02:18 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 01:02:20 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 01:02:20 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 01:02:20 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-20 01:02:21 [main] INFO  com.solid.login.service.logger.LoggerManager - Cambiando el tipo de logger despues: class com.solid.login.service.logger.LoogerLog4jImpl
+2024-10-20 01:02:21 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado antes: null
+2024-10-20 01:02:21 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado despues: class com.solid.login.service.cifrado.CifrarBase64Impl
+2024-10-20 01:02:22 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 01:02:22 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-10-20 01:02:22 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8099 (http) with context path '/'
+2024-10-20 01:02:22 [main] INFO  com.solid.login.SolidloginApplication - Started SolidloginApplication in 10.267 seconds (process running for 12.302)
+2024-10-20 01:03:24 [http-nio-8099-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-20 01:03:24 [http-nio-8099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-20 01:03:24 [http-nio-8099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-10-20 01:03:25 [http-nio-8099-exec-1] INFO  com.solid.login.Controller.UsuarioControllerImpl - 
+2024-10-20 01:03:27 [http-nio-8099-exec-3] INFO  com.solid.login.Controller.UsuarioControllerImpl - Usuario con user augustow ya existe...
+2024-10-20 01:04:33 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 01:04:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-20 01:04:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-10-20 01:05:26 [main] INFO  com.solid.login.SolidloginApplication - Starting SolidloginApplication using Java 21.0.2 with PID 31056 (D:\Developer\SolidLogin\solidlogin\target\classes started by penama in D:\Developer\SolidLogin\solidlogin)
+2024-10-20 01:05:26 [main] INFO  com.solid.login.SolidloginApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-20 01:05:28 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-20 01:05:28 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 150 ms. Found 2 JPA repository interfaces.
+2024-10-20 01:05:29 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8099 (http)
+2024-10-20 01:05:30 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2024-10-20 01:05:30 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-20 01:05:30 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-20 01:05:30 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-20 01:05:30 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3116 ms
+2024-10-20 01:05:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-20 01:05:30 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:solidlogindb user=ROOT
+2024-10-20 01:05:30 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-20 01:05:30 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:solidlogindb'
+2024-10-20 01:05:31 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-20 01:05:31 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-20 01:05:31 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-20 01:05:32 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-20 01:05:32 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-20 01:05:33 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-20 01:05:33 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 01:05:34 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-20 01:05:35 [main] INFO  com.solid.login.service.logger.LoggerManager - Cambiando el tipo de logger despues: class com.solid.login.service.logger.LoogerLog4jImpl
+2024-10-20 01:05:35 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado antes: null
+2024-10-20 01:05:35 [main] INFO  com.solid.login.service.cifrado.CifradoManager - Cambiando el tipo de cifrado despues: class com.solid.login.service.cifrado.CifrarBase64Impl
+2024-10-20 01:05:35 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-20 01:05:36 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2024-10-20 01:05:36 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8099 (http) with context path '/'
+2024-10-20 01:05:36 [main] INFO  com.solid.login.SolidloginApplication - Started SolidloginApplication in 10.427 seconds (process running for 12.695)
+2024-10-20 01:05:46 [http-nio-8099-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-20 01:05:46 [http-nio-8099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-10-20 01:05:46 [http-nio-8099-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-10-20 01:05:47 [http-nio-8099-exec-1] INFO  com.solid.login.Controller.UsuarioControllerImpl - usuario creado augustow
+2024-10-20 01:05:50 [http-nio-8099-exec-3] INFO  com.solid.login.Controller.UsuarioControllerImpl - Usuario con user augustow ya existe...
+2024-10-20 01:06:01 [http-nio-8099-exec-5] INFO  com.solid.login.service.logger.LoggerManager - Cambiando el tipo de logger antes: class com.solid.login.service.logger.LoogerLog4jImpl
+2024-10-20 01:12:37 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-20 01:12:37 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-20 01:12:37 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
